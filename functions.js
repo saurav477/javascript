@@ -1,20 +1,16 @@
-//Create 4 functions for add , subutract , multiply and divide 2 numbers return the result
-// Function to add two numbers
+//Create 4 functions for add , subutract , multiply and divide 2 numbers and return the result
 function add(a, b) {
 return a + b;
 }
 
-// Function to subtract two numbers
 function subtract(a, b) {
 return a - b;
 }
 
-// Function to multiply two numbers
 function multiply(a, b) {
 return a * b;
 }
 
-// Function to divide two numbers
 function divide(a, b) {
     if (b === 0) {
 return "Cannot divide by zero";
