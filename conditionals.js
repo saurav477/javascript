@@ -28,5 +28,3 @@
  else{
     console.log("Non multiple of 5");
  }
-
- C:\Javascript\javascript\conditionals.js
