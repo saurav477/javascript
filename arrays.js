@@ -17,14 +17,14 @@ let isAllAdult = ages.every(age => age >= 18);
 console.log(isAllAdult); 
 
 // fill()
-let array = [1, 2, 3, 4, 5];
-array.fill(0, 2, 4);
-console.log(array); 
+let array4 = [1, 2, 3, 4, 5];
+array4.fill(0, 2, 4);
+console.log(array4); 
 
 // filter()
-let array123 = [1, 2, 3, 4, 5];
-array.fill(0, 2, 4);
-console.log(array123); 
+let array5 = [1, 2, 3, 4, 5];
+array5.fill(0, 2, 4);
+console.log(array5); 
 
 // find()
 let numbers2= [10, 20, 30, 40, 50];
@@ -37,36 +37,95 @@ let foundIndex = numbers.findIndex(num => num > 25);
 console.log(foundIndex); 
 
 // forEach()
-let array11 = ['a', 'b', 'c'];
-array11.forEach(item => {
+let array6 = ['a', 'b', 'c'];
+array6.forEach(item => {
   console.log(item); 
 });
 
 // includes()
-let array12 = [1, 2, 3];
-console.log(array12.includes(2)); 
-console.log(array12.includes(4)); 
+let array7 = [1, 2, 3];
+console.log(array7.includes(2)); 
+console.log(array7.includes(4)); 
 
 // indexOf()
-let array66= [1, 2, 3, 4, 5];
-let index6 = array66.indexOf(3);
+let array8= [1, 2, 3, 4, 5];
+let index6 = array8.indexOf(3);
 console.log(index6); 
 
 // isArray()
 console.log(Array.isArray([1, 2, 3]));
 console.log(Array.isArray('hello')); 
 
-// join()
 // keys()
+let array22 = ['a', 'b', 'c'];
+let keys = array22.keys();
+for (let key of keys) {
+  console.log(key); 
+}
+
+// join()
+let array9 = ['a', 'b', 'c'];
+let joined = array9.join('-');
+console.log(joined); 
+
 // lastIndexOf()
+let array10 = [2, 5, 9, 2];
+console.log(array10.lastIndexOf(2)); 
+
 // map()
+let num = [1, 2, 3];
+let doubled = num.map(num => num * 2);
+console.log(doubled);
+
 // pop()
+let array11 = [1, 2, 3];
+let removed = array11.pop();
+console.log(removed); 
+console.log(array11);
+
 // push()
+let array12 = [1, 2, 3];
+array12.push(4);
+console.log(array12); 
+
 // reduce()
+let numberss = [1, 2, 3, 4, 5];
+let sum = numberss.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
+
 // reverse()
+let array13 = [1, 2, 3];
+array13.reverse();
+console.log(array13); 
+
 // shift()
+let array14 = [1, 2, 3];
+let shifted = array14.shift();
+console.log(shifted);
+console.log(array14); 
+
 // slice()
+let arrray15 = ['a', 'b', 'c', 'd', 'e'];
+let sliced = arrray15.slice(1, 4);
+console.log(sliced); 
+
 // toLocaleString()
+let number = [1000, 2000, 3000];
+console.log(number.toLocaleString()); 
+
 // toString()
+let array16 = [1, 2, 3];
+let stringRepresentation = array16.toString();
+console.log(stringRepresentation);
+
 // unshift()
+let array17 = [1, 2, 3];
+array17.unshift(0);
+console.log(array17); 
+
 // values()
+let array18 = ['a', 'b', 'c'];
+let values = array18.values();
+for (let value of values) {
+  console.log(value); 
+}
