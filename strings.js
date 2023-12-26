@@ -22,12 +22,12 @@ console.log(result);
 function iscontained(first, second) {
     return first.includes(second);
 }
-const string2= "how are you?";
-const string3 = "how";
-console.log(iscontained(string2, string3));
-
-
 //Write a function that take a string parameter and a character and returns the index of that character( using indexOf,lastIndexOf and search ) 
+  const string2= "how are you?";
+  const string3 = "how";
+  console.log(iscontained(string2, string3));
+
+
 //Write a function that  takes 2 string parameters and returns total match of second parameter to the first one
 
 
