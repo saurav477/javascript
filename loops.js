@@ -21,7 +21,7 @@ while(y<=5);
 //WAP to print all the keys of the given object
 
 let student={
-name:"Saurav Karna",
+name:"Saurav",
 age: 23,
 cgpa: 3.0
 }
