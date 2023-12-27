@@ -127,5 +127,5 @@ console.log(array17);
 let array18 = ['a', 'b', 'c'];
 let values = array18.values();
 for (let value of values) {
-  console.log(value); 
+  console.log(valuelala); 
 }
