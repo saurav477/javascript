@@ -22,12 +22,28 @@ console.log(result);
 function iscontained(first, second) {
     return first.includes(second);
 }
+const string2= "how are you?";
+const string3 = "how";
+console.log(iscontained(string2, string3));
+
 //Write a function that take a string parameter and a character and returns the index of that character( using indexOf,lastIndexOf and search ) 
-  const string2= "how are you?";
-  const string3 = "how";
-  console.log(iscontained(string2, string3));
+function idxofChar(str, char){
+    return str.indexOf(char);
+     ;
+}
+const stringg = "HellloWorld";
+const charac = "l";
+console.log(`index of the ${charac} in ${stringg} is ${idxofChar(stringg, charac)} `)
 
 
 //Write a function that  takes 2 string parameters and returns total match of second parameter to the first one
 
+function totalMatch(str1, str2){
+    const regex= new RegExp(str2, 'gi');
+    aa = str1.match(regex);
+    return aa.length;
+}
+const strr= "ho ho ho ho";
+const strrr= "ho";
+console.log(`total match of ${strrr} in ${strr} is ${totalMatch(strr, strrr)}`)
 
